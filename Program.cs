@@ -19,7 +19,7 @@ while (playGame)
 
     while (userGuess != randomNum)
     {
-        System.Console.Write($"Guess the number between {min} to {max}: ");
+        System.Console.Write($"Guess the number between {min} to {max-1}: ");
         userGuess = int.Parse(Console.ReadLine()!);
 
         if (userGuess > randomNum)
