@@ -34,7 +34,7 @@ while (playGame)
 
         guesses++;
     }
-    System.Console.WriteLine("\nYahoo! You get it.");
+    System.Console.WriteLine($"\nYahoo! You get it in {guesses} guesses...");
     System.Console.WriteLine("The number is " + randomNum);
 
     System.Console.Write("Do you want to play again?(Y/N): "); //user output could be y instead of Y
